@@ -4,7 +4,7 @@ import Header from './header';
 import UptimeRobot from './uptimerobot';
 import Package from '../../package.json';
 
-function App() {
+function App () {
 
   const apikeys = useMemo(() => {
     const { ApiKeys } = window.Config;
@@ -24,7 +24,8 @@ function App() {
         </div>
         <div id='footer'>
           <p>基于&nbsp;<Link to='https://uptimerobot.com/' text='UptimeRobot' />&nbsp;接口&nbsp;|&nbsp;检测频率&nbsp;5&nbsp;分钟</p>
-          <p>2020&nbsp;-&nbsp;2022&nbsp;&copy;&nbsp;Reach&nbsp;-&nbsp;<Link to='/' text='墨明' /></p>
+          <p>2020&nbsp;-&nbsp;2023&nbsp;&copy;&nbsp;SakuraSociety&nbsp;-&nbsp;<Link to='https://wwwsakurakoi.top' text='官网' /></p>
+          <p>This page is created using <Link to='https://github.com/Qikaile/uptime-status' text='Qikaile/uptime-status' /></p>
         </div>
       </div>
     </>
